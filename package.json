@@ -1,12 +1,15 @@
 {
   "name": "fluent-methods",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wrap any object to make its methods fluent-style and chainable with type safety",
   "main": "src/index.js",
   "types": "index.d.ts",
   "exports": {
-    "import": "./src/index.js",
-    "require": "./src/index.js"
+    ".": {
+      "import": "./src/index.js",
+      "require": "./src/index.js",
+      "types": "./index.d.ts"
+    }
   },
   "type": "module",
   "keywords": [
